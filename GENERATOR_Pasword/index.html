@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Генератор Паролей</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Генератор Паролей</h1>
+        <label for="length">Длина пароля:</label>
+        <input type="number" id="length" value="12" min="1" max="128">
+
+        <label for="include-symbols">
+            <input type="checkbox" id="include-symbols" checked>
+            Включить специальные символы
+        </label>
+
+        <label for="include-numbers">
+            <input type="checkbox" id="include-numbers" checked>
+            Включить цифры
+        </label>
+
+        <label for="include-lowercase">
+            <input type="checkbox" id="include-lowercase" checked>
+            Включить строчные буквы
+        </label>
+
+        <label for="include-uppercase">
+            <input type="checkbox" id="include-uppercase" checked>
+            Включить заглавные буквы
+        </label>
+
+        <button id="generate-btn">Сгенерировать пароль</button>
+        <input type="text" id="password" readonly>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
