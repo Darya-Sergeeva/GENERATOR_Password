@@ -37,7 +37,7 @@
 
 ## Автор
 
-[darya Miw_ok]
+[Darya Miw_ok]
 
 
 
